@@ -120,6 +120,6 @@ In the scenario where you want to update the file located in a git submodule (th
 
     2.1. Update the reference of that git submodule (example, EnvUat)
     ```
-    git submodule update --init --remote /EnvUat
+    git submodule update --init --remote ./EnvUat
     ```
     2.2. Now that we updated the submodule reference, this, like any other change, must be added to the git history using a git add, commit then push. Then go through PR process to merge on main
